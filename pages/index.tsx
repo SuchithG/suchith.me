@@ -37,7 +37,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          Wesite under construction...
+          Website under construction...
       </footer>
     </div>
   )
