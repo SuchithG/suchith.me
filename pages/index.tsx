@@ -31,7 +31,7 @@ export default function Home() {
       }}
     >
         <h1 className={styles.title}>
-          Welcome to Suchith's Space!
+          Welcome to Suchith Space!
         </h1>
         </motion.div>
       </main>
