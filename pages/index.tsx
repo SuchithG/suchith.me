@@ -28,7 +28,7 @@ export default function Home() {
             },
           }}
         >
-          <h1 className="m-auto leading-tight text-6xl items-center">
+          <h1 className="m-auto leading-tight text-6xl items-center min-[320px]:text-center">
             Welcome to Suchith&apos;s Space!
           </h1>
         </motion.div>
