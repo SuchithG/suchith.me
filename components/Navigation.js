@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 import ThemeSwitch from "../components/ThemeSwitch";
 
 const Navigation = () => {
@@ -9,10 +10,10 @@ const Navigation = () => {
         <Link legacyBehavior href="/">
           <a
             className={
-              "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"
+              "font-bold tracking-wider transition-colors text-gray-900 hover:text-red-600 uppercase dark:text-white"
             }
           >
-            Suchith
+            <motion.h1 whileHover={{ scale: 1.2 }}>Suchith</motion.h1>
           </a>
         </Link>
         <ThemeSwitch />

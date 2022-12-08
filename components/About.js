@@ -28,7 +28,7 @@ const About = () => {
             }}
           >
             <h1 className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
-              Hey, I&apos;m Suchith.
+              Hey, I&apos;m <span className="text-red-500">Suchith.</span>
             </h1>
           </motion.div>
           <motion.div
