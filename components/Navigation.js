@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import ThemeSwitch from "../components/ThemeSwitch";
+import Image from "next/image";
+import Mylogo from "../public/assets/Mylogo.png";
 
 const Navigation = () => {
   return (
@@ -13,7 +15,9 @@ const Navigation = () => {
               "font-bold tracking-wider transition-colors text-gray-900 hover:text-red-600 uppercase dark:text-white"
             }
           >
-            <motion.h1 whileHover={{ scale: 1.2 }}>Suchith</motion.h1>
+            <motion.h1 whileHover={{ scale: 1.2 }}>
+              <Image src={Mylogo} alt="/" width="100" height="50"></Image>
+            </motion.h1>
           </a>
         </Link>
         <ThemeSwitch />
