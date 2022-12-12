@@ -62,6 +62,7 @@ const About = () => {
                   </a>
                 </Link>
               </p>
+              <p> Let&apos;s start building !🚀</p>
             </div>
           </motion.div>
         </div>
