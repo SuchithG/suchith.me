@@ -54,9 +54,7 @@ const About = () => {
                 Developer at{" "}
                 <Link legacyBehavior href="https://www.codosphere.com/">
                   <a
-                    className={
-                      "transition-colors hover:text-yellow-500 font-bold"
-                    }
+                    className={"transition-colors hover:text-red-600 font-bold"}
                   >
                     Codosphere.
                   </a>

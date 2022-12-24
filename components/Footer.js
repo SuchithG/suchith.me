@@ -21,7 +21,7 @@ const Footer = () => {
               <a
                 href="#"
                 className={
-                  "transition-colors hover:text-yellow-500 pl-2 flex items-center"
+                  "transition-colors hover:text-red-600 pl-2 flex items-center"
                 }
                 target="_blank"
                 rel="noreferrer"
@@ -34,15 +34,7 @@ const Footer = () => {
             <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
               <a
                 href="#"
-                className={"transition-colors hover:text-yellow-500"}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImFacebook />
-              </a>
-              <a
-                href="#"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-red-600"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -50,7 +42,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-red-600"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -58,7 +50,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://github.com/SuchithG"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-red-600"}
                 target="_blank"
                 rel="noreferrer"
               >
