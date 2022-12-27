@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <Image src={Mylogo} alt="/" width="125" height="50" />
+          <Image src={Mylogo} alt="/" width="50" height="50" />
           <div>
             <ul className="hidden md:flex">
               <Link href="/">
@@ -44,11 +44,6 @@ const Navbar = () => {
                   Contact
                 </li>
               </Link>
-              <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:border-b">
-                  Contact
-                </li>
-              </Link>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 <ThemeSwitch />
               </li>
@@ -60,7 +55,9 @@ const Navbar = () => {
         </div>
         <div
           className={
-            nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+            nav
+              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70"
+              : ""
           }
         >
           <div
@@ -88,6 +85,9 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
+                <Link href="/">
+                  <ThemeSwitch />
+                </Link>
                 <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
