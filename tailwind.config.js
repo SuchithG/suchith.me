@@ -9,5 +9,8 @@ module.exports = {
   theme: {
     extend: {},
   },
+  corePlugins: {
+    backgroundOpacity: false,
+  },
   plugins: [],
 };

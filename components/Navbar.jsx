@@ -1,11 +1,13 @@
-import Image from "next/image";
 import React, { useState } from "react";
-import Mylogo from "../public/assets/Mylogo.png";
-import ThemeSwitch from "../components/ThemeSwitch";
+import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { ImHeart, ImTwitter, ImGithub, ImLinkedin } from "react-icons/im";
 import { BsFillPersonalLinesFill } from "react-icons/bs";
+
+import Mylogo from "../public/assets/Mylogo.png";
+import ThemeSwitch from "../components/ThemeSwitch";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-20 shadow-xl z-[100]">
+      <div className="fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black ">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Image src={Mylogo} alt="/" width="50" height="50" />
           <div>
@@ -86,9 +88,6 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <ThemeSwitch />
-                </Link>
-                <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
                 <Link href="/">
@@ -119,7 +118,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    {/* <BsFillPersonalLinesFill /> */}
+                    <ImTwitter />
                   </div>
                 </div>
               </div>

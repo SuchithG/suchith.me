@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  ImHeart,
-  ImFacebook,
-  ImTwitter,
-  ImGithub,
-  ImLinkedin,
-} from "react-icons/im";
+import { ImHeart, ImTwitter, ImGithub, ImLinkedin } from "react-icons/im";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+
 import "animate.css/animate.min.css";
 
 const Footer = () => {
