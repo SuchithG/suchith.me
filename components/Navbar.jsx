@@ -18,11 +18,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black ">
+      <div className="fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Image src={Mylogo} alt="/" width="50" height="50" />
-          <div>
-            <ul className="hidden md:flex">
+          <div className="flex items-center">
+            <ul className="hidden md:flex items-center justify-between">
               <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
               </Link>
