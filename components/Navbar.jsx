@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { ImHeart, ImTwitter, ImGithub, ImLinkedin } from "react-icons/im";
-import { BsFillPersonalLinesFill } from "react-icons/bs";
+import { ImTwitter } from "react-icons/im";
+// import { BsFillPersonalLinesFill } from "react-icons/bs";
 
 import Mylogo from "../public/assets/Mylogo.png";
 import ThemeSwitch from "../components/ThemeSwitch";
