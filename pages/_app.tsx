@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 
 import Accordion from "../components/Accordion/Accordion";
 import Footer from "../components/Footer";
@@ -30,6 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider attribute="class" enableSystem={false}>
         <Component {...pageProps} />
+        <Analytics />
         <Accordion />
         <Footer />
       </ThemeProvider>
