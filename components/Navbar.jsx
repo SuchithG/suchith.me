@@ -4,7 +4,6 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
-// import { BsFillPersonalLinesFill } from "react-icons/bs";
 
 import Mylogo from "../public/assets/Mylogo.png";
 import ThemeSwitch from "../components/ThemeSwitch";
@@ -19,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black">
-        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
           <Image src={Mylogo} alt="/" width="50" height="50" />
           <div className="flex items-center">
             <ul className="hidden md:flex items-center justify-between">
@@ -46,7 +45,7 @@ const Navbar = () => {
                   Contact
                 </li>
               </Link>
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm">
                 <ThemeSwitch />
               </li>
             </ul>

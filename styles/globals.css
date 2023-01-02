@@ -35,5 +35,5 @@ li{
 }
 
 button {
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r 
+  @apply shadow-xl rounded-xl uppercase bg-gradient-to-r 
 }
