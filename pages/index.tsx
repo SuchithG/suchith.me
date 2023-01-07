@@ -2,6 +2,8 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import AboutMe from "../components/AboutMe";
+import Accordion from "../components/Accordion/Accordion";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Navbar />
       <Main />
       <AboutMe />
+      <Accordion />
+      <Footer />
     </div>
   );
 }

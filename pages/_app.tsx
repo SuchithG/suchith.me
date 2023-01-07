@@ -4,8 +4,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { useRouter } from "next/router";
 import { ThemeProvider } from "next-themes";
 
-import Accordion from "../components/Accordion/Accordion";
-import Footer from "../components/Footer";
 import "../styles/globals.css";
 import * as ga from "../lib/ga";
 
@@ -31,8 +29,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <ThemeProvider attribute="class" enableSystem={false}>
         <Component {...pageProps} />
         <Analytics />
-        <Accordion />
-        <Footer />
       </ThemeProvider>
     </>
   );
