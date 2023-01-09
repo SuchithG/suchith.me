@@ -9,7 +9,7 @@ import nextjs from "../public/assets/skills/nextjs.png";
 import node from "../public/assets/skills/node.png";
 import mongo from "../public/assets/skills/mongo.png";
 import github from "../public/assets/skills/github.png";
-import tailWind from "../public/assets/skills/tailWind.png";
+// import tailWind from "../public/assets/skills/tailWind.png";
 
 function Skills() {
   return (
@@ -65,7 +65,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -79,7 +79,7 @@ function Skills() {
                 <h3>Tailwind</h3>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
