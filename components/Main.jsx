@@ -3,6 +3,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
 import { motion } from "framer-motion";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css/animate.min.css";
 
 function Main() {
   return (
@@ -40,20 +42,22 @@ function Main() {
             responsive front-end web applications while learning back-end
             technologies.
           </p>
-          <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
+          <AnimationOnScroll animateIn="animate__slideInUp">
+            <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                <ImTwitter />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <ImTwitter />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-          </div>
+          </AnimationOnScroll>
         </div>
       </div>
     </div>
