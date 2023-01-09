@@ -32,7 +32,7 @@ function About() {
         </div>
         <div className="h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
-            classname="rounded-xl"
+            className="rounded-xl"
             src={profile}
             alt="/"
             width={300}

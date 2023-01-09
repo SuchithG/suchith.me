@@ -9,7 +9,7 @@ import nextjs from "../public/assets/skills/nextjs.png";
 import node from "../public/assets/skills/node.png";
 import mongo from "../public/assets/skills/mongo.png";
 import github from "../public/assets/skills/github.png";
-import tailwind from "../public/assets/skills/tailwind.png";
+import tailWind from "../public/assets/skills/tailWind.png";
 
 function Skills() {
   return (
@@ -69,7 +69,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={tailwind}
+                  src={tailWind}
                   alt="/"
                   width="64px"
                   height="64px"
