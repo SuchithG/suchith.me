@@ -86,6 +86,9 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
+                <div>
+                  <ThemeSwitch />
+                </div>
                 <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
