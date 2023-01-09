@@ -4,8 +4,12 @@ import React from "react";
 import html from "../public/assets/skills/html.png";
 import css from "../public/assets/skills/css.png";
 import javascript from "../public/assets/skills/javascript.png";
-import reactIcon from "../public/assets/skills/reactIcon.png";
-import Tailwind from "../public/assets/skills/Tailwind.png";
+import react from "../public/assets/skills/react.png";
+import tailwind from "../public/assets/skills/tailwind.png";
+import nextjs from "../public/assets/skills/nextjs.png";
+import node from "../public/assets/skills/node.png";
+import mongo from "../public/assets/skills/mongo.png";
+import github from "../public/assets/skills/github.png";
 
 function Skills() {
   return (
@@ -54,12 +58,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src={reactIcon}
-                  alt="/"
-                  width="64px"
-                  height="64px"
-                ></Image>
+                <Image src={react} alt="/" width="64px" height="64px"></Image>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>REACT</h3>
@@ -70,7 +69,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={Tailwind}
+                  src={tailwind}
                   alt="/"
                   width="64px"
                   height="64px"
@@ -78,6 +77,46 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={nextjs} alt="/" width="64px" height="64px"></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>NEXTJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={node} alt="/" width="64px" height="64px"></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>NODE</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={mongo} alt="/" width="64px" height="64px"></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MONGO</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={github} alt="/" width="64px" height="64px"></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>GITHUB</h3>
               </div>
             </div>
           </div>
