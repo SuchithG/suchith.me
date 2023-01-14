@@ -16,7 +16,7 @@ import github from "../public/assets/skills/github.png";
 function Skills() {
   return (
     <AnimationOnScroll animateIn="animate__slideInRight">
-      <div className="w-full lg:h-screen p-2">
+      <div id="skills" className="w-full lg:h-screen p-2">
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
           <p className="uppercase text-red-500  text-xl tracking-widest ">
             Skills

@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 * > * {
   font-family: "Poppins", sans-serif;
 }
@@ -35,5 +39,5 @@ li{
 }
 
 button {
-  @apply shadow-xl rounded-xl uppercase bg-gradient-to-r 
+  @apply shadow-xl rounded-xl uppercase bg-gradient-to-r from-red-600 to-red-400
 }
