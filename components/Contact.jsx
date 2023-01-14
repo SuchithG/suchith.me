@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
-import contactMe from "../public/assets/ContactMe.jpg";
+import contactMe from "../public/assets/contactMe.jpg";
 import Link from "next/link";
 
 function Contact() {
