@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import Node_Farm from "../public/assets/projects/Node_Farm";
+import NodeFarm from "../public/assets/projects/NodeFarm.png";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
@@ -12,18 +12,13 @@ function Projects() {
         <p className="uppercase text-red-500  text-xl tracking-widest ">
           Projects
         </p>
-        <h2 className="py-2 text-gray-700">What I've Built</h2>
+        <h2 className="py-2 text-gray-700">What I&aposve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Node Farm"
-            backgroundImg={Node_Farm}
-            projectUrl="/property"
+            backgroundImg={NodeFarm}
+            projectUrl="/Nodefarm"
           />
-          {/* <ProjectItem
-            title="Node Farm"
-            backgroundImg={suchith}
-            projectUrl="/property"
-          /> */}
         </div>
       </div>
     </div>
