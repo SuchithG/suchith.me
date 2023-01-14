@@ -12,7 +12,7 @@ function Projects() {
         <p className="uppercase text-red-500  text-xl tracking-widest ">
           Projects
         </p>
-        <h2 className="py-2 text-gray-700">What I&aposve Built</h2>
+        <h2 className="py-2 text-gray-700">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Node Farm"
