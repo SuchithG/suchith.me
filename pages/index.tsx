@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 import Accordion from "../components/Accordion/Accordion";
 import Footer from "../components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Main />
       <AboutMe />
       <Skills />
+      <Projects />
       <Accordion />
       <Footer />
     </div>

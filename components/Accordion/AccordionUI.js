@@ -8,7 +8,7 @@ const AccordionUI = ({ title, datas, Id, Index, setIndex }) => {
     <>
       <div
         onClick={() => handleSetIndex(Id)}
-        className="flex group cursor-pointer w-3/4 mx-auto h-16 justify-between  items-center p-2 mt-2 rounded-md bg-white hover:bg-black hover:shadow-lg focus:bg-white"
+        className="flex group w-full cursor-pointer  mx-auto h-16 justify-between  items-center p-2 mt-2 rounded-md bg-white hover:bg-black hover:shadow-lg focus:bg-white"
       >
         <div className="flex group cursor-pointer">
           <div className="text-black font-semibold pl-10 group-hover:text-white">
@@ -25,7 +25,7 @@ const AccordionUI = ({ title, datas, Id, Index, setIndex }) => {
       </div>
 
       {Index === Id && (
-        <div className="bg-red-200 pl-10 font-semibold text-black w-3/4 h-auto rounded-md p-4 border-l-2 mb-2 ">
+        <div className="bg-red-200 pl-10 font-semibold text-black w-full h-auto rounded-md p-4 border-l-2 mb-2 ">
           {datas}
         </div>
       )}
