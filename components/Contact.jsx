@@ -39,10 +39,14 @@ function Contact() {
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
+                    <Link href="https://www.linkedin.com/in/suchith-g-04ba54183/">
+                      <FaLinkedinIn />
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                    <Link href="https://github.com/SuchithG">
+                      <FaGithub />
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <ImTwitter />
