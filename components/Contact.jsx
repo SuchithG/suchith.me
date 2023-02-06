@@ -29,7 +29,7 @@ function Contact() {
               </div>
               <div>
                 <h2 className="py-4">Suchith G</h2>
-                <p>Front-End Developer</p>
+                <p>A Full-Stack Developer</p>
                 <p className="py-4">
                   I am available for full-time positions. Contact me and
                   Let&apos;s talk
