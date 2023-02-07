@@ -30,7 +30,9 @@ function About() {
               management.
             </p>
             <p className="py-2 text-gray-600 underline cursor-pointer">
+              <Link href="https://github.com/SuchithG">
               Check out some of my latest projects.
+              </Link>
             </p>
           </AnimationOnScroll>
         </div>
