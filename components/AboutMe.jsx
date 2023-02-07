@@ -4,6 +4,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
 import profile from "../public/profile.jpeg";
+import Link from "next/link";
 
 function About() {
   return (
