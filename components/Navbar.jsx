@@ -4,6 +4,8 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
+import {ImSearch} from "react-icons/im";
+
 
 import Mylogo from "../public/assets/Mylogo.png";
 import ThemeSwitch from "../components/ThemeSwitch";
@@ -41,6 +43,16 @@ const Navbar = () => {
             <Image src={Mylogo} alt="/" width="50" height="50" />
           </Link>
           <div className="flex items-center">
+            <div className="relative flex justify-between items-center max-w-[400px] w-full m-auto pt-4 text-white z-10">
+              <form className="mb-5 flex justify-between items-center w-full m-auto p-3 bg-transparent border border-black-300 text-white rounded-2xl">
+                <div >
+                  <input className="bg-transparent border-none text-white focus:outline-none text-1xl placeholder" type="text" placeholder="Search"/>
+                </div>
+                {/* <button className="bg-white">
+                  <ImSearch size={20} />
+                </button> */}
+              </form>
+            </div>
             <ul className="hidden md:flex items-center justify-between">
               <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
