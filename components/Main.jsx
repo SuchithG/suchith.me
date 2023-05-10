@@ -38,8 +38,7 @@ function Main() {
           </h1>
           <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Developer and Tech enthusiast. I work as a Full Stack
-            Developer at Codosphere. Currently, I&apos;m focused on building
+            I&apos;m a Developer and Tech enthusiast. Currently, I&apos;m focused on building
             responsive front-end web applications while learning back-end
             technologies.
           </p>
