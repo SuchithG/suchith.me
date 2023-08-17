@@ -3,6 +3,7 @@ import { HiArrowCircleDown, HiX } from "react-icons/hi";
 
 const AccordionUI = ({ title, datas, Id, Index, setIndex }) => {
   const handleSetIndex = (Id) => Index !== Id && setIndex(Id);
+  const handleCloseAccordion = () => Index === Id && setIndex(null); // Close the accordion when HiX is clicked
 
   return (
     <>
@@ -19,7 +20,10 @@ const AccordionUI = ({ title, datas, Id, Index, setIndex }) => {
           {Index !== Id ? (
             <HiArrowCircleDown className="w-6 h-6 group-hover:text-white text-black" />
           ) : (
-            <HiX className="w-6 h-6 group-hover:text-white text-black" />
+            <HiX
+              className="w-6 h-6 group-hover:text-white text-black cursor-pointer"
+              onClick={handleCloseAccordion} // Close the accordion when HiX is clicked
+            />
           )}
         </div>
       </div>
