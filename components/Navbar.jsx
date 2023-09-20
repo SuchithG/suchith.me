@@ -4,8 +4,7 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
-import {ImSearch} from "react-icons/im";
-
+import { ImSearch } from "react-icons/im";
 
 import Mylogo from "../public/assets/Mylogo.png";
 import ThemeSwitch from "../components/ThemeSwitch";
@@ -13,6 +12,13 @@ import ThemeSwitch from "../components/ThemeSwitch";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    setTheme(
+      document.documentElement.classList.contains("dark") ? "dark" : "light"
+    );
+  }, []);
 
   const handleNav = () => {
     setNav(!nav);
@@ -45,8 +51,15 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="relative flex justify-between items-center max-w-[400px] w-full m-auto pt-4 text-white z-10">
               <form className="mb-5 flex justify-between items-center w-full m-auto p-3 bg-transparent border border-black-300 text-white rounded-2xl">
-                <div >
-                  <input className="bg-transparent border-none text-white focus:outline-none text-1xl placeholder" type="text" placeholder="Search"/>
+                <div>
+                  <input
+                    className={`border-none focus:outline-none text-1xl placeholder-black dark:placeholder-white text-black dark:text-white ${
+                      theme === "dark" ? "bg-black" : "bg-transparent"
+                    }`}
+                    style={{ caretColor: theme === "dark" ? "white" : "black" }}
+                    type="text"
+                    placeholder="Search"
+                  />
                 </div>
                 {/* <button className="bg-white">
                   <ImSearch size={20} />
