@@ -4,7 +4,6 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
-import { ImSearch } from "react-icons/im";
 
 import Mylogo from "../public/assets/Mylogo.png";
 import ThemeSwitch from "../components/ThemeSwitch";
