@@ -60,9 +60,6 @@ const Navbar = () => {
                     placeholder="Search"
                   />
                 </div>
-                {/* <button className="bg-white">
-                  <ImSearch size={20} />
-                </button> */}
               </form>
             </div>
             <ul className="hidden md:flex items-center justify-between">
