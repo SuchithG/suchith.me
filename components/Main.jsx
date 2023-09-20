@@ -36,11 +36,9 @@ function Main() {
               Hey, I&apos;m <span className="text-red-500">Suchith.</span>
             </motion.div>
           </h1>
-          <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
+          <h1 className="py-4 text-gray-700">Code Lover and Tech-Savvy</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Developer and Tech enthusiast. Currently, I&apos;m focused on building
-            responsive front-end web applications while learning back-end
-            technologies.
+            I&apos;m a devoted Developer and a Tech Enthusiast presently channeling my energy into crafting responsive front-end web applications, all while expanding my knowledge and skills in back-end technologies.
           </p>
           <AnimationOnScroll animateIn="animate__slideInUp">
             <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
